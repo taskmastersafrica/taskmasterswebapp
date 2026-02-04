@@ -1,0 +1,8 @@
+{
+  "name": "Taskmaster Africa",
+  "description": "Professional home and personal support services agency offering reliable cleaning, laundry, cooking, nanny, and errand services across Africa.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskmaster Africa | Professional Home & Errand Services</title>
+    <meta name="description" content="Taskmaster Africa provides premium home cleaning, laundry, cooking, nanny, and errand services. Professional support for your busy life.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            50: '#F8FAFC',
+                            100: '#F1F5F9',
+                            200: '#E2E8F0',
+                            300: '#CBD5E1',
+                            400: '#94A3B8',
+                            500: '#64748B',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1E293B',
+                            900: '#0F172A',
+                            950: '#020617',
+                        },
+                        brandOrange: '#F97316'
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'figma': '0px 4px 20px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.1)',
+                        'figma-lg': '0px 10px 40px rgba(0, 0, 0, 0.08), 0px 4px 10px rgba(0, 0, 0, 0.05)',
+                        'orange-glow': '0px 10px 30px rgba(249, 115, 22, 0.2)',
+                    },
+                    borderRadius: {
+                        'figma': '16px',
+                        'figma-lg': '24px',
+                        'figma-xl': '32px',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased; }
+        .glass-nav {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0F172A; }
+        ::-webkit-scrollbar-thumb { background: #F97316; border-radius: 10px; }
+        
+        .figma-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        @media (min-width: 1440px) {
+            .figma-container {
+                max-width: 1320px;
+            }
+        }
+
+        .transition-figma {
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-navy-900 selection:bg-brandOrange/20 selection:text-brandOrange">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+    <script src='https://cdn.jotfor.ms/agent/embedjs/019c238e3cbf79caba74d65c22f8fa94d1a3/embed.js'></script>
+</body>
+</html>
